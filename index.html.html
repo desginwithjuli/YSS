@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuva Shakti Sangathan - Youth Empowerment Organization</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#1a56db',secondary:'#ff7e1d'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Montserrat', sans-serif;
+padding-bottom: 4rem;
+}
+.hero-gradient {
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+}
+.stat-counter {
+counter-reset: stat 0;
+animation: count-up 2s forwards;
+}
+@keyframes count-up {
+to { counter-increment: stat var(--target); }
+}
+.stat-counter::after {
+content: counter(stat);
+}
+</style>
+</head>
+<body class="bg-gray-50">
+<!-- Nav Bar -->
+<nav class="fixed top-0 w-full bg-white shadow-md z-50">
+<div class="flex items-center justify-between px-4 py-3">
+<div class="flex items-center">
+<span class="text-2xl font-['Pacifico'] text-primary">logo</span>
+</div>
+<div class="flex items-center space-x-3">
+<div class="w-8 h-8 flex items-center justify-center cursor-pointer">
+<i class="ri-search-line ri-lg text-gray-600"></i>
+</div>
+<div class="w-8 h-8 flex items-center justify-center cursor-pointer">
+<i class="ri-menu-line ri-lg text-gray-600"></i>
+</div>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative mt-14 h-[400px] overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=diverse%20group%20of%20young%20people%20raising%20hands%20together%20in%20unity%2C%20social%20activism%2C%20community%20service%2C%20empowerment%2C%20energetic%20youth%20volunteers%20in%20action%2C%20outdoor%20setting%2C%20natural%20lighting%2C%20hopeful%20expressions%2C%20teamwork%2C%20high%20quality%20photorealistic%20image&width=375&height=400&seq=1&orientation=portrait" class="w-full h-full object-cover" alt="Youth in action">
+<div class="absolute inset-0 hero-gradient flex flex-col items-center justify-center text-white text-center px-6">
+<h1 class="text-3xl font-bold mb-3">Yuva Shakti Sangathan</h1>
+<p class="text-sm mb-6 opacity-90">Empowering young voices for a better tomorrow</p>
+<div class="flex space-x-4">
+<button class="bg-secondary text-white px-4 py-2 font-medium !rounded-button cursor-pointer">Join the Movement</button>
+<button class="bg-white text-primary px-4 py-2 font-medium !rounded-button cursor-pointer">Report an Issue</button>
+</div>
+</div>
+</section>
+<!-- Quick Introduction -->
+<section class="px-4 py-8">
+<h2 class="text-2xl font-bold text-gray-800 mb-4">Who We Are</h2>
+<p class="text-gray-600 mb-6">Yuva Shakti Sangathan (YSS) is a youth-led non-profit organization based in Ramnagar, dedicated to empowering young people to create positive social change through awareness, education, and community action.</p>
+<!-- Core Values -->
+<div class="grid grid-cols-3 gap-4 mb-8">
+<div class="flex flex-col items-center text-center">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-2">
+<i class="ri-heart-line ri-xl text-primary"></i>
+</div>
+<span class="text-xs font-medium">Compassion</span>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-2">
+<i class="ri-team-line ri-xl text-primary"></i>
+</div>
+<span class="text-xs font-medium">Unity</span>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-2">
+<i class="ri-lightbulb-line ri-xl text-primary"></i>
+</div>
+<span class="text-xs font-medium">Innovation</span>
+</div>
+</div>
+</section>
+<!-- Recent Campaigns -->
+<section class="px-4 py-6 bg-white">
+<div class="flex justify-between items-center mb-4">
+<h2 class="text-xl font-bold text-gray-800">Recent Campaigns</h2>
+<a href="#" class="text-primary text-sm font-medium flex items-center cursor-pointer">
+View all
+<i class="ri-arrow-right-s-line ml-1"></i>
+</a>
+</div>
+<div class="overflow-x-auto pb-4 -mx-4">
+<div class="flex px-4 space-x-4" style="min-width: max-content;">
+<div class="w-[260px] rounded-lg overflow-hidden shadow-sm border border-gray-100">
+<img src="https://readdy.ai/api/search-image?query=youth%20volunteers%20conducting%20an%20anti-addiction%20awareness%20campaign%20in%20a%20community%20setting%2C%20educational%20posters%2C%20engaged%20audience%2C%20rural%20Indian%20town%2C%20natural%20lighting%2C%20documentary%20style&width=260&height=150&seq=2&orientation=landscape" class="w-full h-[150px] object-cover" alt="Anti-addiction campaign">
+<div class="p-3">
+<div class="flex items-center mb-2">
+<span class="text-xs bg-blue-100 text-primary px-2 py-0.5 rounded-full">Health</span>
+<span class="text-xs text-gray-500 ml-2">April 2, 2025</span>
+</div>
+<h3 class="font-medium text-gray-800 mb-1">Anti-Addiction Drive</h3>
+<p class="text-xs text-gray-600 mb-2">Raising awareness about substance abuse among youth in Ramnagar.</p>
+<a href="#" class="text-primary text-xs font-medium cursor-pointer">Learn more</a>
+</div>
+</div>
+<div class="w-[260px] rounded-lg overflow-hidden shadow-sm border border-gray-100">
+<img src="https://readdy.ai/api/search-image?query=young%20volunteers%20teaching%20children%20in%20a%20makeshift%20classroom%2C%20educational%20materials%2C%20engaged%20students%2C%20rural%20Indian%20setting%2C%20warm%20lighting%2C%20documentary%20style&width=260&height=150&seq=3&orientation=landscape" class="w-full h-[150px] object-cover" alt="Education initiative">
+<div class="p-3">
+<div class="flex items-center mb-2">
+<span class="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">Education</span>
+<span class="text-xs text-gray-500 ml-2">March 15, 2025</span>
+</div>
+<h3 class="font-medium text-gray-800 mb-1">Child Education Initiative</h3>
+<p class="text-xs text-gray-600 mb-2">Free tutoring program for underprivileged children in rural areas.</p>
+<a href="#" class="text-primary text-xs font-medium cursor-pointer">Learn more</a>
+</div>
+</div>
+<div class="w-[260px] rounded-lg overflow-hidden shadow-sm border border-gray-100">
+<img src="https://readdy.ai/api/search-image?query=young%20women%20participating%20in%20a%20self-defense%20workshop%2C%20training%20session%2C%20female%20empowerment%2C%20community%20hall%20setting%2C%20diverse%20participants%2C%20documentary%20style&width=260&height=150&seq=4&orientation=landscape" class="w-full h-[150px] object-cover" alt="Women's safety workshop">
+<div class="p-3">
+<div class="flex items-center mb-2">
+<span class="text-xs bg-purple-100 text-purple-700 px-2 py-0.5 rounded-full">Safety</span>
+<span class="text-xs text-gray-500 ml-2">March 8, 2025</span>
+</div>
+<h3 class="font-medium text-gray-800 mb-1">Women's Safety Workshop</h3>
+<p class="text-xs text-gray-600 mb-2">Self-defense training and awareness program for women in Ramnagar.</p>
+<a href="#" class="text-primary text-xs font-medium cursor-pointer">Learn more</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Impact Statistics -->
+<section class="px-4 py-8 bg-primary text-white">
+<h2 class="text-xl font-bold mb-6 text-center">Our Impact</h2>
+<div class="grid grid-cols-2 gap-6 mb-6">
+<div class="text-center">
+<div class="text-3xl font-bold mb-1" data-value="42">
+<span class="stat-counter" style="--target: 42;"></span>+
+</div>
+<p class="text-sm opacity-90">Campaigns Completed</p>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold mb-1" data-value="2500">
+<span class="stat-counter" style="--target: 2500;"></span>+
+</div>
+<p class="text-sm opacity-90">Youth Volunteers</p>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold mb-1" data-value="15">
+<span class="stat-counter" style="--target: 15;"></span>+
+</div>
+<p class="text-sm opacity-90">Villages Covered</p>
+</div>
+<div class="text-center">
+<div class="text-3xl font-bold mb-1" data-value="12000">
+<span class="stat-counter" style="--target: 12000;"></span>+
+</div>
+<p class="text-sm opacity-90">Lives Impacted</p>
+</div>
+</div>
+<div class="text-center">
+<button class="bg-white text-primary px-4 py-2 font-medium !rounded-button cursor-pointer">View All Achievements</button>
+</div>
+</section>
+<!-- Founder Spotlight -->
+<section class="px-4 py-8 bg-white">
+<h2 class="text-xl font-bold text-gray-800 mb-6">Meet Our Founder</h2>
+<div class="flex flex-col md:flex-row">
+<div class="w-full mb-4">
+<img src="aashihs.jpg" class="w-full h-[300px] object-cover rounded-lg" alt="Advocate Aashish Kumar - Founder">
+</div>
+<div class="w-full">
+<h3 class="text-lg font-bold text-gray-800 mb-1">Advocate Aashish Kumar</h3>
+<p class="text-sm text-gray-500 mb-3">Founder & CEO</p>
+<div class="mb-4 p-3 bg-gray-50 border-l-4 border-primary italic text-gray-600 text-sm">
+"The power to transform society lies in the hands of our youth. Through legal awareness and social empowerment, we can create lasting change in our communities."
+</div>
+<p class="text-sm text-gray-600 mb-4">Advocate Aashish Kumar founded YSS in 2024, combining his legal expertise with a passion for youth empowerment. As a professional advocate practicing in Ramnagar District Court, he brings valuable legal knowledge to guide young minds in understanding their rights and responsibilities. His unique approach of integrating legal awareness with social activism has helped create meaningful impact in the community.</p>
+<button class="text-primary text-sm font-medium flex items-center cursor-pointer">
+Read Full Story
+<i class="ri-arrow-right-s-line ml-1"></i>
+</button>
+</div>
+</div>
+</section>
+<!-- Our Team -->
+<section class="px-4 py-8">
+<div class="flex justify-between items-center mb-6">
+<h2 class="text-xl font-bold text-gray-800">Our Team</h2>
+<a href="#" class="text-primary text-sm font-medium flex items-center cursor-pointer">
+View all
+<i class="ri-arrow-right-s-line ml-1"></i>
+</a>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white rounded-lg overflow-hidden shadow-sm">
+<img src="https://readdy.ai/api/search-image?query=professional%20portrait%20of%20a%20young%20Indian%20woman%20with%20confident%20expression%2C%20business%20casual%20attire%2C%20neutral%20background%2C%20high%20quality%20professional%20headshot&width=160&height=160&seq=6&orientation=squarish" class="w-full h-[160px] object-cover" alt="Priya Sharma">
+<div class="p-3">
+<h3 class="font-medium text-gray-800">Priya Sharma</h3>
+<p class="text-xs text-gray-500 mb-2">Program Director</p>
+<div class="flex space-x-2">
+<a href="#" class="w-6 h-6 flex items-center justify-center bg-gray-100 rounded-full cursor-pointer">
+<i class="ri-linkedin-fill ri-sm text-gray-600"></i>
+</a>
+<a href="#" class="w-6 h-6 flex items-center justify-center bg-gray-100 rounded-full cursor-pointer">
+<i class="ri-twitter-fill ri-sm text-gray-600"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg overflow-hidden shadow-sm">
+<img src="https://readdy.ai/api/search-image?query=professional%20portrait%20of%20a%20young%20Indian%20man%20with%20friendly%20smile%2C%20business%20casual%20attire%2C%20neutral%20background%2C%20high%20quality%20professional%20headshot&width=160&height=160&seq=7&orientation=squarish" class="w-full h-[160px] object-cover" alt="Rahul Verma">
+<div class="p-3">
+<h3 class="font-medium text-gray-800">Rahul Verma</h3>
+<p class="text-xs text-gray-500 mb-2">Outreach Coordinator</p>
+<div class="flex space-x-2">
+<a href="#" class="w-6 h-6 flex items-center justify-center bg-gray-100 rounded-full cursor-pointer">
+<i class="ri-linkedin-fill ri-sm text-gray-600"></i>
+</a>
+<a href="#" class="w-6 h-6 flex items-center justify-center bg-gray-100 rounded-full cursor-pointer">
+<i class="ri-twitter-fill ri-sm text-gray-600"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg overflow-hidden shadow-sm">
+<img src="https://readdy.ai/api/search-image?query=professional%20portrait%20of%20a%20young%20Indian%20woman%20with%20thoughtful%20expression%2C%20business%20casual%20attire%2C%20neutral%20background%2C%20high%20quality%20professional%20headshot&width=160&height=160&seq=8&orientation=squarish" class="w-full h-[160px] object-cover" alt="Neha Gupta">
+<div class="p-3">
+<h3 class="font-medium text-gray-800">Neha Gupta</h3>
+<p class="text-xs text-gray-500 mb-2">Finance Manager</p>
+<div class="flex space-x-2">
+<a href="#" class="w-6 h-6 flex items-center justify-center bg-gray-100 rounded-full cursor-pointer">
+<i class="ri-linkedin-fill ri-sm text-gray-600"></i>
+</a>
+<a href="#" class="w-6 h-6 flex items-center justify-center bg-gray-100 rounded-full cursor-pointer">
+<i class="ri-twitter-fill ri-sm text-gray-600"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-lg overflow-hidden shadow-sm">
+<img src="https://readdy.ai/api/search-image?query=professional%20portrait%20of%20a%20young%20Indian%20man%20with%20determined%20expression%2C%20business%20casual%20attire%2C%20neutral%20background%2C%20high%20quality%20professional%20headshot&width=160&height=160&seq=9&orientation=squarish" class="w-full h-[160px] object-cover" alt="Vikram Singh">
+<div class="p-3">
+<h3 class="font-medium text-gray-800">Roshan Gupta</h3>
+<p class="text-xs text-gray-500 mb-2">IT Head & Media Coordinator</p>
+<div class="flex space-x-2">
+<a href="#" class="w-6 h-6 flex items-center justify-center bg-gray-100 rounded-full cursor-pointer">
+<i class="ri-linkedin-fill ri-sm text-gray-600"></i>
+</a>
+<a href="#" class="w-6 h-6 flex items-center justify-center bg-gray-100 rounded-full cursor-pointer">
+<i class="ri-twitter-fill ri-sm text-gray-600"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Join Us CTA -->
+<section class="relative py-10 mt-6">
+<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=diverse%20group%20of%20young%20people%20with%20raised%20hands%20at%20sunset%2C%20silhouettes%2C%20unity%2C%20hope%2C%20community%2C%20warm%20golden%20light%2C%20inspirational%20moment&width=375&height=250&seq=10&orientation=landscape'); filter: brightness(0.4);"></div>
+<div class="relative z-10 px-4 text-center text-white">
+<h2 class="text-2xl font-bold mb-3">Join Our Movement</h2>
+<p class="text-sm mb-6 opacity-90">Be part of the change you want to see in society. Together, we can make a difference.</p>
+<div class="grid grid-cols-2 gap-3 mb-4">
+<button class="bg-secondary text-white px-3 py-2 text-sm font-medium !rounded-button cursor-pointer flex items-center justify-center">
+<i class="ri-user-add-line mr-2"></i>
+Become a Volunteer
+</button>
+<button class="bg-white text-primary px-3 py-2 text-sm font-medium !rounded-button cursor-pointer flex items-center justify-center">
+<i class="ri-heart-line mr-2"></i>
+Make a Donation
+</button>
+</div>
+<div class="flex justify-center space-x-4 mt-6">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full cursor-pointer">
+<i class="ri-facebook-fill ri-lg text-white"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full cursor-pointer">
+<i class="ri-instagram-line ri-lg text-white"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full cursor-pointer">
+<i class="ri-twitter-fill ri-lg text-white"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-white/20 rounded-full cursor-pointer">
+<i class="ri-whatsapp-line ri-lg text-white"></i>
+</a>
+</div>
+</div>
+</section>
+<!-- Contact Us -->
+<section class="px-4 py-8 bg-white">
+<h2 class="text-xl font-bold text-gray-800 mb-6">Contact Us</h2>
+<div class="mb-6">
+<div class="flex items-start mb-4">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-3 mt-1">
+<i class="ri-map-pin-line ri-lg text-primary"></i>
+</div>
+<div>
+<h3 class="font-medium text-gray-800 mb-1">Our Address</h3>
+<p class="text-sm text-gray-600">C-7, Shree Ram Nagar Colony, Sahibabad, Ghaziabad U.P-201005</p>
+</div>
+</div>
+<div class="flex items-start mb-4">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-3 mt-1">
+<i class="ri-mail-line ri-lg text-primary"></i>
+</div>
+<div>
+<h3 class="font-medium text-gray-800 mb-1">Email Us</h3>
+<p class="text-sm text-gray-600">info@yuvashakti.org</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 rounded-full mr-3 mt-1">
+<i class="ri-phone-line ri-lg text-primary"></i>
+</div>
+<div>
+<h3 class="font-medium text-gray-800 mb-1">Call Us</h3>
+<p class="text-sm text-gray-600">+91 98736 91752</p>
+</div>
+</div>
+</div>
+<div class="mb-6 rounded-lg overflow-hidden h-[200px] bg-gray-100">
+<div class="w-full h-full bg-cover bg-center" style="background-image: url('https://public.readdy.ai/gen_page/map_placeholder_1280x720.png');"></div>
+</div>
+<form>
+<div class="mb-4">
+<label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+<input type="text" id="name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-primary">
+</div>
+<div class="mb-4">
+<label for="email" class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
+<input type="email" id="email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-primary">
+</div>
+<div class="mb-4">
+<label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+<textarea id="message" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-primary"></textarea>
+</div>
+<button type="submit" class="w-full bg-primary text-white px-4 py-2 font-medium !rounded-button cursor-pointer">Send Message</button>
+</form>
+</section>
+<!-- Tab Bar -->
+<div class="fixed bottom-0 w-full bg-white border-t border-gray-200 z-50">
+<div class="grid grid-cols-5 h-16">
+<a href="#" class="flex flex-col items-center justify-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-home-5-fill ri-lg text-primary"></i>
+</div>
+<span class="text-xs mt-1 text-primary font-medium">Home</span>
+</a>
+<a href="#" class="flex flex-col items-center justify-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-information-line ri-lg text-gray-500"></i>
+</div>
+<span class="text-xs mt-1 text-gray-500">About</span>
+</a>
+<a href="#" class="flex flex-col items-center justify-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-calendar-event-line ri-lg text-gray-500"></i>
+</div>
+<span class="text-xs mt-1 text-gray-500">Events</span>
+</a>
+<a href="#" class="flex flex-col items-center justify-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-team-line ri-lg text-gray-500"></i>
+</div>
+<span class="text-xs mt-1 text-gray-500">Team</span>
+</a>
+<a href="#" class="flex flex-col items-center justify-center cursor-pointer">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-contacts-line ri-lg text-gray-500"></i>
+</div>
+<span class="text-xs mt-1 text-gray-500">Contact</span>
+</a>
+</div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Stats counter animation
+const statElements = document.querySelectorAll('[data-value]');
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+const el = entry.target;
+const value = el.getAttribute('data-value');
+const counter = el.querySelector('.stat-counter');
+counter.style.setProperty('--target', value);
+observer.unobserve(el);
+}
+});
+}, { threshold: 0.5 });
+statElements.forEach(el => {
+observer.observe(el);
+});
+});
+</script>
+</body>
+</html>
